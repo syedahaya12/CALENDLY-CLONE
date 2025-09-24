@@ -1,0 +1,249 @@
+[17-Aug-2025 10:09:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbh9abdhp4vpml`.`bookings`, CONSTRAINT `bookings_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php:21
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 21
+[17-Aug-2025 10:34:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbh9abdhp4vpml`.`bookings`, CONSTRAINT `bookings_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php:21
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 21
+[17-Aug-2025 10:37:02 UTC] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 56
+[17-Aug-2025 10:37:02 UTC] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 57
+[17-Aug-2025 10:37:02 UTC] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 58
+[17-Aug-2025 10:37:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbh9abdhp4vpml`.`bookings`, CONSTRAINT `bookings_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php:25
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 25
+[17-Aug-2025 10:40:25 UTC] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 10:40:25 UTC] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 10:40:25 UTC] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 10:40:44 UTC] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 10:40:44 UTC] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 10:40:44 UTC] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 10:41:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php:3
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php(3): PDO->query('SELECT id, user...')
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 3
+[17-Aug-2025 10:41:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php:3
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php(3): PDO->query('SELECT id, user...')
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 3
+[17-Aug-2025 10:41:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php:3
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php(3): PDO->query('SELECT id, user...')
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 3
+[17-Aug-2025 11:03:24 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 14
+[17-Aug-2025 11:06:02 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 14
+[17-Aug-2025 11:06:02 UTC] Availability insert failed for user 7: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbh9abdhp4vpml`.`availability`, CONSTRAINT `availability_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[17-Aug-2025 14:42:08 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 29
+[17-Aug-2025 14:42:08 Europe/Istanbul] Received input - User ID: 2, Day: Tuesday, Start: 14:37, End: 15:37
+[17-Aug-2025 14:42:08 Europe/Istanbul] Availability added for user 2: Tuesday, 14:37 - 15:37
+[17-Aug-2025 14:43:23 Europe/Istanbul] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 14:43:23 Europe/Istanbul] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 14:43:23 Europe/Istanbul] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 14:43:36 Europe/Istanbul] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 14:43:36 Europe/Istanbul] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 14:43:36 Europe/Istanbul] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 14:44:00 Europe/Istanbul] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 14:44:00 Europe/Istanbul] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 14:44:00 Europe/Istanbul] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 14:44:15 Europe/Istanbul] PHP Warning:  Undefined array key "user_id" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 64
+[17-Aug-2025 14:44:15 Europe/Istanbul] PHP Warning:  Undefined array key "date" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 65
+[17-Aug-2025 14:44:15 Europe/Istanbul] PHP Warning:  Undefined array key "slot" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/booking_confirmation.php on line 66
+[17-Aug-2025 14:47:24 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 29
+[17-Aug-2025 14:47:24 Europe/Istanbul] Received input - User ID: 2, Day: Wednesday, Start: 17:37, End: 19:37
+[17-Aug-2025 14:47:24 Europe/Istanbul] Availability added for user 2: Wednesday, 17:37 - 19:37
+[17-Aug-2025 14:51:45 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 11:51:50 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 181
+[17-Aug-2025 11:52:07 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 181
+[17-Aug-2025 14:53:14 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 14:54:21 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 16:46:50 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 29
+[17-Aug-2025 16:46:50 Europe/Istanbul] Received input - User ID: 2, Day: Friday, Start: 16:50, End: 18:50
+[17-Aug-2025 16:46:50 Europe/Istanbul] Availability added for user 2: Friday, 16:50 - 18:50
+[17-Aug-2025 16:46:50 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 17:55:02 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 17:55:11 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 17:55:36 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/book_appointment.php on line 17
+[17-Aug-2025 17:55:36 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 17:49, End: 18:49
+[17-Aug-2025 17:56:04 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/book_appointment.php on line 17
+[17-Aug-2025 17:56:04 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 18:50, End: 20:51
+[17-Aug-2025 17:58:49 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 17:59:00 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 17:59:00 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/book_appointment.php on line 20
+[17-Aug-2025 17:59:00 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 17:56, End: 18:56
+[17-Aug-2025 18:01:33 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 18:01:41 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 18:01:41 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 17:59, End: 18:59
+[17-Aug-2025 18:01:41 Europe/Istanbul] Available slots for Sunday: Array
+(
+)
+
+[17-Aug-2025 18:02:09 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 18:02:09 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 07:08, End: 18:59
+[17-Aug-2025 18:02:09 Europe/Istanbul] Available slots for Sunday: Array
+(
+)
+
+[17-Aug-2025 18:03:04 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 18:03:04 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-18, Start: 13:05, End: 14:05
+[17-Aug-2025 18:03:04 Europe/Istanbul] Available slots for Monday: Array
+(
+)
+
+[17-Aug-2025 18:03:38 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 18:03:40 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 18:15:28 Europe/Istanbul] Fetched 0 bookings for user_id 3
+[17-Aug-2025 18:15:57 Europe/Istanbul] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/dashboard.php on line 29
+[17-Aug-2025 18:15:57 Europe/Istanbul] Received input - User ID: 3, Day: Sunday, Start: 17:49, End: 18:49
+[17-Aug-2025 18:15:57 Europe/Istanbul] Availability added for user 3: Sunday, 17:49 - 18:49
+[17-Aug-2025 18:15:57 Europe/Istanbul] Fetched 0 bookings for user_id 3
+[17-Aug-2025 18:16:02 Europe/Istanbul] Session user_id: 3
+[17-Aug-2025 18:16:18 Europe/Istanbul] Session user_id: 3
+[17-Aug-2025 18:16:18 Europe/Istanbul] Booking attempt - User ID: 3, Name: Hu, Email: hu@gmail.com, Date: 2025-08-17, Start: 17:59, End: 18:59
+[17-Aug-2025 18:16:18 Europe/Istanbul] Available slots for Sunday: Array
+(
+)
+
+[17-Aug-2025 18:16:51 Europe/Istanbul] Session user_id: 3
+[17-Aug-2025 18:16:51 Europe/Istanbul] Booking attempt - User ID: 3, Name: Hi, Email: hi@gmail.com, Date: 2025-08-17, Start: 18:35, End: 17:05
+[17-Aug-2025 19:34:46 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:34:54 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:34:54 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 17:59, End: 18:59
+[17-Aug-2025 19:34:54 Europe/Istanbul] Available slots for Sunday: Array
+(
+)
+
+[17-Aug-2025 19:37:34 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:37:53 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:37:53 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 20:36, End: 22:37
+[17-Aug-2025 19:37:53 Europe/Istanbul] Available slots for Sunday (start: 20:36, end: 22:37): Array
+(
+)
+
+[17-Aug-2025 19:40:42 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:40:42 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-18, Start: 19:35, End: 20:35
+[17-Aug-2025 19:40:42 Europe/Istanbul] Available slots for Monday (start: 19:35, end: 20:35): Array
+(
+)
+
+[17-Aug-2025 19:43:21 Europe/Istanbul] Add slot attempt - User ID: 2, Day: Sunday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:43:21 Europe/Istanbul] Slot added successfully - User ID: 2, Day: Sunday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:43:22 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 19:43:54 Europe/Istanbul] Add slot attempt - User ID: 2, Day: Sunday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:44:01 Europe/Istanbul] Add slot attempt - User ID: 2, Day: Tuesday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:44:01 Europe/Istanbul] Slot added successfully - User ID: 2, Day: Tuesday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:44:02 Europe/Istanbul] Fetched 0 bookings for user_id 2
+[17-Aug-2025 19:44:25 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:44:32 Europe/Istanbul] Session user_id: 2
+[17-Aug-2025 19:44:32 Europe/Istanbul] Booking attempt - User ID: 2, Name: H_yaZahra, Email: SHZ@gmail.com, Date: 2025-08-17, Start: 19:40, End: 20:40
+[17-Aug-2025 19:44:32 Europe/Istanbul] Available slots for Sunday (start: 19:40, end: 20:40): Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [0] => 5
+            [user_id] => 2
+            [1] => 2
+            [day_of_week] => Sunday
+            [2] => Sunday
+            [start_time] => 19:40:00
+            [3] => 19:40:00
+            [end_time] => 20:40:00
+            [4] => 20:40:00
+        )
+
+    [1] => Array
+        (
+            [id] => 6
+            [0] => 6
+            [user_id] => 2
+            [1] => 2
+            [day_of_week] => Tuesday
+            [2] => Tuesday
+            [start_time] => 19:40:00
+            [3] => 19:40:00
+            [end_time] => 20:40:00
+            [4] => 20:40:00
+        )
+
+)
+
+[17-Aug-2025 19:44:32 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:45:44 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:46:04 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:46:17 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:50:20 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:51:13 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 19:51:23 Europe/Istanbul] Add slot attempt - User ID: 2, Day: Tuesday, Start: 19:40, End: 20:40
+[17-Aug-2025 19:51:39 Europe/Istanbul] Add slot attempt - User ID: 2, Day: Sunday, Start: 16:40, End: 17:40
+[17-Aug-2025 19:51:39 Europe/Istanbul] Slot added successfully - User ID: 2, Day: Sunday, Start: 16:40, End: 17:40
+[17-Aug-2025 19:51:39 Europe/Istanbul] Fetched 1 bookings for user_id 2
+[17-Aug-2025 17:14:33 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 181
+[17-Aug-2025 17:24:52 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /home/customer/www/rsoa110.millioncoders.net/public_html/calendly clone/schedule.php on line 181
+[04-Sep-2025 16:08:25 Europe/Istanbul] Fetched 0 bookings for user_id 4
+[04-Sep-2025 16:08:36 Europe/Istanbul] Add slot attempt - User ID: 4, Day: Sunday, Start: 19:40, End: 20:40
+[04-Sep-2025 16:08:36 Europe/Istanbul] Slot added successfully - User ID: 4, Day: Sunday, Start: 19:40, End: 20:40
+[04-Sep-2025 16:08:36 Europe/Istanbul] Fetched 0 bookings for user_id 4
+[04-Sep-2025 16:08:39 Europe/Istanbul] Session user_id: 4
+[04-Sep-2025 16:08:49 Europe/Istanbul] Session user_id: 4
+[04-Sep-2025 16:08:49 Europe/Istanbul] Booking attempt - User ID: 4, Name: Haya, Email: xyz@gmail.com, Date: 2025-09-04, Start: 19:40, End: 20:40
+[04-Sep-2025 16:08:49 Europe/Istanbul] Available slots for Thursday (start: 19:40, end: 20:40): Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [0] => 5
+            [user_id] => 2
+            [1] => 2
+            [day_of_week] => Sunday
+            [2] => Sunday
+            [start_time] => 19:40:00
+            [3] => 19:40:00
+            [end_time] => 20:40:00
+            [4] => 20:40:00
+        )
+
+    [1] => Array
+        (
+            [id] => 6
+            [0] => 6
+            [user_id] => 2
+            [1] => 2
+            [day_of_week] => Tuesday
+            [2] => Tuesday
+            [start_time] => 19:40:00
+            [3] => 19:40:00
+            [end_time] => 20:40:00
+            [4] => 20:40:00
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [0] => 8
+            [user_id] => 4
+            [1] => 4
+            [day_of_week] => Sunday
+            [2] => Sunday
+            [start_time] => 19:40:00
+            [3] => 19:40:00
+            [end_time] => 20:40:00
+            [4] => 20:40:00
+        )
+
+)
+
+[04-Sep-2025 16:08:49 Europe/Istanbul] Fetched 1 bookings for user_id 4
+[04-Sep-2025 19:26:40 Europe/Istanbul] Fetched 0 bookings for user_id 5
+[04-Sep-2025 19:26:46 Europe/Istanbul] Add slot attempt - User ID: 5, Day: Sunday, Start: 19:40, End: 20:40
+[04-Sep-2025 19:26:46 Europe/Istanbul] Slot added successfully - User ID: 5, Day: Sunday, Start: 19:40, End: 20:40
+[04-Sep-2025 19:26:46 Europe/Istanbul] Fetched 0 bookings for user_id 5
+[04-Sep-2025 19:26:50 Europe/Istanbul] Add slot attempt - User ID: 5, Day: Sunday, Start: 19:40, End: 20:40
+[04-Sep-2025 19:26:52 Europe/Istanbul] Fetched 0 bookings for user_id 5
+[04-Sep-2025 19:26:54 Europe/Istanbul] Session user_id: 5
